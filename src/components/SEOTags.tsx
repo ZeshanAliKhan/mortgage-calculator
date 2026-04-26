@@ -1,4 +1,6 @@
 export const SEOTags = () => {
+  const siteUrl = "https://zeshan-mortgage-calculator.netlify.app";
+
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -92,13 +94,13 @@ export const SEOTags = () => {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://yoursite.com/"
+        "item": siteUrl
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Mortgage Calculator",
-        "item": "https://yoursite.com/mortgage-calculator"
+        "item": siteUrl
       }
     ]
   };
@@ -109,13 +111,13 @@ export const SEOTags = () => {
       <title>Mortgage Calculator - Estimate Monthly Home Loan Payments</title>
       <meta name="description" content="Use this free mortgage calculator to estimate your monthly mortgage payment, including principal, interest, property taxes, home insurance, HOA fees, and PMI." />
       <meta name="robots" content="index, follow" />
-      <link rel="canonical" href="https://yoursite.com/mortgage-calculator" />
+      <link rel="canonical" href={siteUrl} />
 
       {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Mortgage Calculator - Estimate Monthly Home Loan Payments" />
       <meta property="og:description" content="Use this free mortgage calculator to estimate your monthly mortgage payment, including principal, interest, property taxes, home insurance, HOA fees, and PMI." />
-      <meta property="og:url" content="https://yoursite.com/mortgage-calculator" />
+      <meta property="og:url" content={siteUrl} />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
