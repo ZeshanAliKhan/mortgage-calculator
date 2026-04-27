@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zeshan-mortgage-calculator.netlify.app/sitemap.xml
+Sitemap: https://zeshan-mortgage-calculator-804.netlify.app/sitemap.xml

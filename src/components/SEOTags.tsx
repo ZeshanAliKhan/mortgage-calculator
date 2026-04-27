@@ -1,5 +1,5 @@
 export const SEOTags = () => {
-  const siteUrl = "https://zeshan-mortgage-calculator.netlify.app";
+  const siteUrl = "https://zeshan-mortgage-calculator-804.netlify.app";
 
   const faqSchema = {
     "@context": "https://schema.org",
