@@ -107,24 +107,6 @@ export const SEOTags = () => {
 
   return (
     <>
-      {/* Primary Meta Tags */}
-      <title>Mortgage Calculator - Estimate Monthly Home Loan Payments</title>
-      <meta name="description" content="Use this free mortgage calculator to estimate your monthly mortgage payment, including principal, interest, property taxes, home insurance, HOA fees, and PMI." />
-      <meta name="robots" content="index, follow" />
-      <link rel="canonical" href={siteUrl} />
-
-      {/* Open Graph / Facebook */}
-      <meta property="og:type" content="website" />
-      <meta property="og:title" content="Mortgage Calculator - Estimate Monthly Home Loan Payments" />
-      <meta property="og:description" content="Use this free mortgage calculator to estimate your monthly mortgage payment, including principal, interest, property taxes, home insurance, HOA fees, and PMI." />
-      <meta property="og:url" content={siteUrl} />
-
-      {/* Twitter */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Mortgage Calculator - Estimate Monthly Home Loan Payments" />
-      <meta name="twitter:description" content="Use this free mortgage calculator to estimate your monthly mortgage payment, including principal, interest, property taxes, home insurance, HOA fees, and PMI." />
-
-      {/* JSON-LD Schemas */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webAppSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
