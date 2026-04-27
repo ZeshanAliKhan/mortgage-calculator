@@ -10,6 +10,8 @@ import { useMortgageCalculation } from "./hooks/useMortgageCalculation";
 import { SEOTags } from "./components/SEOTags";
 import { AdsterraBanner } from "./components/AdsterraBanner";
 
+const BONUS_LINK = "https://www.profitablecpmratenetwork.com/j9f627innq?key=be46e17df9e34aa3b5b8e77e88a34740";
+
 export interface MortgageInputs {
   homePrice: number;
   downPaymentAmount: number;
@@ -57,6 +59,19 @@ function App() {
               <span className="inline-block w-2 h-2 bg-emerald-300 rounded-full"></span>
               Free to use, no signup required, and works directly in your browser.
             </p>
+            <div className="mt-5">
+              <a
+                href={BONUS_LINK}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                className="inline-flex items-center justify-center rounded-lg bg-amber-400 px-6 py-3 text-sm font-semibold text-emerald-950 transition hover:bg-amber-300 focus:outline-none focus:ring-2 focus:ring-amber-300 focus:ring-offset-2 focus:ring-offset-emerald-700"
+              >
+                Get Bonus Offer
+                <svg className="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+            </div>
           </div>
         </header>
 
